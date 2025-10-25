@@ -28,17 +28,20 @@ The half-subtractor is a combinational circuit which is used to perform subtract
 
 Diff = A’B+AB’ =A ⊕ B Borrow = A’B
 
-image
+<img width="476" height="448" alt="image" src="https://github.com/user-attachments/assets/bba524a6-3a61-48c1-8619-e4a78d08a961" />
+
 
 Figure -02 HALF Subtractor
 
 Truthtable HALF ADDER
 
-image
+<img width="424" height="249" alt="image" src="https://github.com/user-attachments/assets/9cbde552-3225-42c3-817f-31adb8cb6d00" />
+
 
 HALF SUBTRACTOR
 
-image
+<img width="436" height="248" alt="image" src="https://github.com/user-attachments/assets/ac921867-c232-4c76-985d-e4122889c1e1" />
+
 
 Procedure
 
@@ -80,13 +83,21 @@ module half_subtractor(diff, borrow, a, b);
   assign borrow = ~a & b;
 endmodule
 
-RTL Schematic Half Adder image
+RTL Schematic 
+<img width="1136" height="690" alt="image" src="https://github.com/user-attachments/assets/b83b5558-31ac-40fd-9091-de34ca096ee8" />
 
-Half Subtractor image
 
-Output/TIMING Waveform Half Adder image
+Half Subtractor 
+<img width="1206" height="671" alt="image" src="https://github.com/user-attachments/assets/93212c7a-45b1-4fa3-b4ed-f3ce9c8389ca" />
 
-Half Subtractor image
+
+Output/TIMING Waveform Half Adder 
+<img width="1921" height="1201" alt="image" src="https://github.com/user-attachments/assets/111bd365-a56e-461d-bf2e-31b745bba020" />
+
+
+Half Subtractor 
+<img width="1921" height="1199" alt="image" src="https://github.com/user-attachments/assets/82ed4481-f1eb-41e0-ab4b-6fde19daeff0" />
+
 
 Result:
 
